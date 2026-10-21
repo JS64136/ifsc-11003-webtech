@@ -1,1 +1,69 @@
-
+/* ---------------Box Sizing----------------- */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  background-color: #ececec;
+  font-weight: bold;
+  font-family: Tahoma, Geneva, sans-serif;
+  color: #fff;
+  text-align: center;
+  line-height: 24px;
+}
+#wrapper {
+  background-color: #fff;
+  border: 1px solid #c0c0c0;
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  text-shadow: 2px 2px #000;
+  overflow: hidden;
+  padding: 20px;
+}
+/* I did not use a class, since I floated each box to a respective side, and I would have to change all boxes to fit for a class. */
+/* With the exception of the footer since it is an outlier in dimentions overall.*/
+#navy {
+  background-color: #001f3f;
+  width: 370px;
+  height: 150px;
+  float: left;
+  margin-bottom: 10px;
+}
+#teal {
+  background-color: #39cccc;
+  width: 370px;
+  height: 150px;
+  float: right;
+  margin-bottom: 10px;
+}
+#blue {
+  background-color: #0074d9;
+  width: 370px;
+  height: 150px;
+  float: left;
+  margin-top: 10px;
+}
+#aqua {
+  background-color: #7fdbff;
+  width: 370px;
+  height: 150px;
+  float: right;
+  margin-top: 10px;
+}
+#footer {
+  background-color: #666;
+  width: 760px;
+  clear: both;
+  float: left;
+  margin-top: 20px;
+}
+h1 {
+  color: #000;
+  font-weight: normal;
+  padding: 50px;
+}
