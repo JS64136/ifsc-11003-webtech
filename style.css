@@ -1,1 +1,25 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  background-color: #b2beb5;
+}
+
+header.primary {
+  background-color: #3b3b3b;
+  color: #50c878;
+  text-align: center;
+  text-shadow: 1.5px 1px #000000;
+  /* Longform */
+  padding-top: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  /* Single Value */
+  padding: 40px;
+  /* T/R/B/L */
+  padding: 40px 40px 20px 40px;
+  /* T/B | L/R */
+  padding: 20px 40px;
+
+}
 
